@@ -190,3 +190,4 @@ input[type=text] { padding: 9px 120px; margin-top: 8px; font-size: 16px; border:
 .inse button { float: right; padding: 4px; margin-top: 8px; margin-right: 16px;; font-size: 13px;  border: none; cursor: pointer; background-color: #fff;}
 .inse button:hover i{ color: indianred;}
 input[type=text] { border: 1px solid #333;}
+
