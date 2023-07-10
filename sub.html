@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Mall</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/sub.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#slbt button:nth-of-type(1)').click(function(){
+                $("#poto1").show();
+                $("#poto2").hide();
+                $("#poto3").hide();
+                $("#poto4").hide();
+                $("#poto5").hide();
+            });
+
+            $('#slbt button:nth-of-type(2)').click(function(){
+                $("#poto1").hide();
+                $("#poto2").show();
+                $("#poto3").hide();
+                $("#poto4").hide();
+                $("#poto5").hide();
+            });
+
+            $('#slbt button:nth-of-type(3)').click(function(){
+                $("#poto1").hide();
+                $("#poto2").hide();
+                $("#poto3").show();
+                $("#poto4").hide();
+                $("#poto5").hide();
+            });
+
+            $('#slbt button:nth-of-type(4)').click(function(){
+                $("#poto1").hide();
+                $("#poto2").hide();
+                $("#poto3").hide();
+                $("#poto4").show();
+                $("#poto5").hide();
+            });
+
+            $('#slbt button:nth-of-type(5)').click(function(){
+                $("#poto1").hide();
+                $("#poto2").hide();
+                $("#poto3").hide();
+                $("#poto4").hide();
+                $("#poto5").show();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div id="leftbox">
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <div id="centerbox">
+            <img src="IMG/Main/Main_LOGO.jpg" alt="ml">
+        </div>
+        <div id="rightbox">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <hr>
+
+        <div id="menubar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">STORY</a></li>
+                <li><a href="menu.html">BRAND</a></li>
+                <li><a href="menu.html">ACCESSORIES</a></li>
+                <li><a href="menu.html">SOFA</a></li>
+                <li><a href="menu.html">CHAIR</a></li>
+                <li><a href="menu.html">ABOUT US</a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="menuetc">
+            <ul>
+                <li><img src="IMG/icon/truck2.png" alt="truck">FREE SHIPPING</li>
+                <li>100% MONEY BACK</li>
+                <li><img src="IMG/icon/tech-support2.png" alt="sup">SUPPORT 3Y</li>
+            </ul>
+        </div>
+
+        <hr>
+    </header>
+
+    <div id="slider">
+        <div class="slider1">
+            <div id="poto1">
+                <img src="IMG/Main/sub_chair1.jpg" alt="sb1">
+            </div>
+            <div id="poto2">
+                <img src="IMG/Main/sub_chair2.jpg" alt="sb2">
+            </div>
+            <div id="poto3">
+                <img src="IMG/Main/sub_chair3.jpg" alt="sb3">
+            </div>
+            <div id="poto4">
+                <img src="IMG/Main/sub_chair4.jpg" alt="sb4">
+            </div>
+            <div id="poto5">
+                <img src="IMG/Main/sub_chair5.jpg" alt="sb5">
+            </div>
+            <div id="slbt">
+                <button type="button" class="bu1"></button>
+                <button type="button" class="bu2"></button>
+                <button type="button" class="bu3"></button>
+                <button type="button" class="bu4"></button>
+                <button type="button" class="bu5"></button>
+            </div>
+        </div>
+        <div class="slider2">
+            <div id="sbox">
+                <h1>Modern Wire Chair(White)</h1>
+                <hr>
+                <h3>Maker : TALIUS</h3>
+                <hr>
+                <h3>From : Korea</h3>
+                <hr>
+                <h3>Product Code : SAT20230629C001</h3>
+                <hr>
+                <h3>배송정보 : 무료배송/직접배송</h3>
+                <hr>
+                <h1>판매가 : $45,00</h1>
+                <hr>
+                <h3 class="star">별점 :</h3>
+                <fieldset class="rate">
+                    <input type="radio" id="rating10" name="rating" value="10"><label for="rating10" title="5점"></label>
+                    <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9" title="4.5점"></label>
+                    <input type="radio" id="rating8" name="rating" value="8"><label for="rating8" title="4점"></label>
+                    <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7" title="3.5점"></label>
+                    <input type="radio" id="rating6" name="rating" value="6"><label for="rating6" title="3점"></label>
+                    <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5" title="2.5점"></label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4" title="2점"></label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3" title="1.5점"></label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2" title="1점"></label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1" title="0.5점"></label>
+                </fieldset>
+                <hr>
+                <button type="button" class="sli2bu1"><span>구매하기</span></button>
+                <button type="button" class="sli2bu2"><span>장바구니</span></button>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div id="details">
+        <div id="mebar">
+            <a href="#product_sti"><span>상세정보</span></a>
+            <a href="#tablebox1_sti"><span>상품고시</span></a>
+            <a href="#tablebox2_sti"><span>배송/반품/교환 안내</span></a>
+            <a href="#review_sti"><span>고객 리뷰</span></a>
+            <a href="#inquiry_sti"><span>Q&A</span></a>
+        </div>
+    
+        <br>
+    
+        <div id="product_sti"></div>
+
+        <div id="product">
+            <h1>Other Great Products</h1>
+            <h2>Many good products are waiting for you!</h2>
+            <div class="proimgbox">
+                <a href="#">
+                    <div id="etc1">
+                        <img src="IMG/Main/etc_ch1.jpg" alt="etc1">
+                        <h3>Modern Wire Chair <br>(Forest Brass)</h3>
+                        <h5>$45,00</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="etc2">
+                        <img src="IMG/Main/etc_ch2.jpg" alt="etc2">
+                        <h3>Modern Wire Chair(Pearl Gray)</h3>
+                        <h5>$45,00</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="etc3">
+                        <img src="IMG/Main/etc_ch3.jpg" alt="etc3">
+                        <h3>Modern Wire Chair(Ink Blue)</h3>
+                        <h5>$45,00</h5>
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="etc4">
+                        <img src="IMG/Main/etc_ch5.jpg" alt="etc4">
+                        <h3>Modern Wire Chair(Saddle)</h3>
+                        <h5>$45,00</h5>
+                    </div>
+                </a>
+            </div>
+            <h1>Thank you for your purchase.</h1>
+        </div>
+        <br>
+        <br>
+        <section>
+            <div id="lbox">
+                <img src="IMG/Main/moch1.jpg" alt="moch">
+            </div>
+            <div class="secbox1">
+                <h2>Modern Wire Chair</h2>
+                <p>평범한 스타일은 거부하며 트렌디함을 강조하는 웨스트엘름만의 디자인 <br>
+                    철학이 완벽하세 담긴 컬렉션입니다. <br>
+                    어디에서도 볼수 없는 웨스트 엘름만의 유니크한 디자인과 함께하면 <br>
+                    누구나 공간 스타일링의 리더가 될 수 있습니다.
+                </p>
+                <br>
+                <h2>클래식과 모던의 공존</h2>
+                <p>클래식이 유행하던 시절의 디자인을 모티브로 하여 웨스트엘름
+                    특유의 모던함으로 재해석 하였습니다. <br>
+                    깔끔하고 고급스러운 디자인으로 어떤 사양의 식탁과도 잘 어울립니다. <br>
+                    두꺼운 좌석 쿠션이 있어 편안한 착석감을 제공합니다.
+                </p>
+                <br>
+                <h2>소재의 믹스 앤 매치</h2>
+                <p>색상별로 다른 재질이며, 그에 맞는 다리를 조합하여 제작하였습니다. <br>
+                    패브릭, 벨벳, 가죽에 더해진 브론즈/브라스의 믹스 앤 매치를 경험하세요.
+                </p>
+                <br>
+                <h2>스타일리시한 연출</h2>
+                <p>메탈소재의 프레임을 의도적으로 노출시켜 의자 라인 디자인을 강조하였습니다. <br>
+                    옆면, 뒷면 어느각도에서든지 프레임 라인의 예술적인 아름다움을 느낄 수 있습니다.
+                </p>
+            </div>
+        </section>
+        <div id="etc">
+            <img src="IMG/Main/chair1.jpg" alt="cha1">
+            <img src="IMG/Main/chair_etc.jpg" alt="cha_etc">
+            <h2>다양한 옵션 컬러를 취향과 공간에 맞춰 선택하세요.</h2>
+            <p>현재 페이지는 샌드 컬러이며, 이외 색상은 Other Great Products에서 확인할 수 있습니다. <br>
+                좌석과 등받이 사양의 차이가 있습니다. 상세페이지 참고 후 구매하시기 부탁드립니다. <br>
+                재고 현황에 따라 옵션이 변동될 수 있습니다.
+        </div>
+    
+    
+        <div id="tablebox1_sti"></div>
+
+        <div id="tablebox1">
+    
+            <table>
+                <h4>상품 고시</h4>
+
+                <tr>
+                    <th>품명</th>
+                    <td>Modern Wire Chair</td>
+                </tr>
+    
+                <tr>
+                    <th>국가통합인증마크 (KC마크)</th>
+                    <td>해당 없음</td>
+                </tr>
+    
+                <tr>
+                    <th>인증 번호</th>
+                    <td>해당 없음</td>
+                </tr>
+    
+                <tr>
+                    <th>색상</th>
+                    <td>이미지 참조</td>
+                </tr>
+    
+                <tr>
+                    <th>소재</th>
+                    <td>상세 정보 참조</td>
+                </tr>
+    
+                <tr>
+                    <th>제조자</th>
+                    <td>TALIUS</td>
+                </tr>
+    
+                <tr>
+                    <th>수입품 여부</th>
+                    <td>X</td>
+                </tr>
+    
+                <tr>
+                    <th>복수 구성품 여부</th>
+                    <td>X</td>
+                </tr>
+    
+                <tr>
+                    <th>제조국</th>
+                    <td>한국</td>
+                </tr>
+    
+                <tr>
+                    <th>치수</th>
+                    <td>상세 정보 참조</td>
+                </tr>
+    
+                <tr>
+                    <th>배송/ 설치 비용</th>
+                    <td>0원</td>
+                </tr>
+    
+                <tr>
+                    <th>상품 보증 기간</th>
+                    <td>
+                        상품에 동봉되는 품질 보증서 또는 공정거래위원회 고시 소비자 분쟁 해결 기준에 따릅니다. <br>
+                        공정거래위원회 고시 소비자 분쟁 해결기준은 품질 보증서에 우선하여 진행합니다. <br>
+                        단, 소비자 귀책 또는 부품수급지연 등 리바트의 귀책이 아닌 사유로 AS서비스가 지연될 경우 내부 규정에 따라 처리됩니다
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+        <div id="tablebox2_sti"></div>
+
+        <div id="tablebox2">
+            <h4>교환 반품 안내</h4>
+    
+            <table>
+                <tr>
+                    <th>브랜드</th>
+                    <td>TALIUS</td>
+                    <th>연락처</th>
+                    <td>1800-5678</td>
+                </tr>
+    
+                <tr>
+                    <th>반품 신청</th>
+                    <td colspan="3">고객 변심에 의한 교환/반품은 공정거래위원회 반품규정에 의거, 정상제품인 경우 상품인도 후 7일이내 신청이 가능합니다. <br>
+                        (제품 하자에 따른 교환/반품일 경우는 예외)</td>
+                </tr>
+    
+                <tr>
+                    <th>반품비</th>
+                    <td colspan="3">
+                        1. 고객 변심에 따른 소화물 택배배송 제품(가구 제외한 생활용품)의 교환/반품시, 왕복 택배비가 부과됩니다. <br>
+                        (교환, 환불, 피해보상은 공정거래 위원회에서 고시한 소비자 분쟁 해결기준에 따릅니다.) <br>
+                        2. 소화물 택배 교환/반품의 경우 고객센터(1800-5300) 접수후 발송해 주시기 바랍니다. <br>
+                        3. 가구의 경우 다음의 교환/반품시 반품비가 부과됩니다. (하단의 가구 반품비 참조) <br>
+                        ① 고객의 단순 변심에 의한 교환/반품시 <br>
+                        ② 상품의 배송 진행중 취소시(영업일 기준 배송당일 3일전까지 무상반품) <br>
+                        ③ 입구협소, 설치공간협소, 높이낮음 등 고객님 자택의 사이즈로 인하여 교환/반품시 <br>
+                        ④ 수취인 부재, 주소 불분명, 연락처 오기재로 인한 오배송, 수취거부로 교환/반품시
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>하자 교환</th>
+                    <td colspan="3">제품에 하자가 있는 경우 국내 소비자 분쟁 해결 기준에 따라 처리됩니다. <br>
+                        (단, 소품류의 경우 수입 완제품으로 A/S는 불가능합니다.)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>교환/ 반품 불가사항</th>
+                    <td colspan="3">① 고객님의 단순변힘 또는 착오구매로 인한 교환/반품 신청이 상품을 수령한 날로부터 7일이 경과한 경우<br>
+                        ② 밀봉된 (비닐) 포장이 제거되거나, 상품태그(tag)가 제거되어 재판매하기 어려울 정도로 상품의 가치가 감소한 경우 <br>
+                        (단, 내용 확인을 위한 포장 개봉의 경우는 예외) <br>
+                        ③ 조립 설치품의 경우, 조립/설치 및 사용 후에는 제품의 가치가 현저하게 하락되어 <br> 새 제품으로 판매 불가하므로 조립/설치 이후에는 교환 및 반품 불가<br>
+                        ④ 구매한 상품의 구성품이 누락된 경우<br>
+                        예) 구성품(부품) 중 일부 누락, 세트 상품이나 일부만 반품 접수 되었을 때 등<br>
+                        ⑤ 시간이 지나 상품의 가치가 감소하여 재판매가 불가능한 경우 <br>
+                        <br>
+                        ※ 교환/반품 접수 및 상담은 고객센터(1800-5300)를 통해 보다 자세하게 안내받으실 수 있으십니다.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+        <div id="review_sti">
+        </div>
+    
+        <div id="review">
+            <h4>고객 리뷰</h4>
+    
+            <div id="review_tablebox">
+                <button>리뷰 작성하기</button>
+                <table>
+                    <tr>
+                        <th>5</th>
+                        <td><a href="#">식탁이랑 잘 어울려요.</a></td>
+                        <td>이채은</td>
+                        <td>2023.05.25</td>
+                        <td>답변완료</td>
+                    </tr>
+    
+                    <tr>
+                        <th>4</th>
+                        <td><a href="#">멋진 Modern Style!</a></td>
+                        <td>김지영</td>
+                        <td>2023.05.21</td>
+                        <td>답변완료</td>
+                    </tr>
+    
+                    <tr>
+                        <th>3</th>
+                        <td><a href="#">방 분위기가 달라졌어요~</a></td>
+                        <td>이현이</td>
+                        <td>2023.04.24</td>
+                        <td>답변완료</td>
+                    </tr>
+    
+                    <tr>
+                        <th>2</th>
+                        <td><a href="#">정말 멋진 의자!</a></td>
+                        <td>홍종후</td>
+                        <td>2023.04.01</td>
+                        <td>답변완료</td>
+                    </tr>
+    
+                    <tr>
+                        <th>1</th>
+                        <td><a href="#">너무 예뻐요.</a></td>
+                        <td>박진영</td>
+                        <td>2023.02.15</td>
+                        <td>답변완료</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+        <div id="inquiry_sti"></div>
+
+        <div id="inquiry">
+            <h4>Q&A</h4>
+            <div id="inquiry_tablebox">
+                <button>상품문의 글쓰기</button>
+                <button>상품문의 전체보기</button>
+                <table>
+                    <tr>
+                        <th>5</th>
+                        <td><a href="#">설치관련문의</a></td>
+                        <td>이은정</td>
+                        <td>2023.06.07</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td><a href="#">사용중 파손문의</a></td>
+                        <td>이소영</td>
+                        <td>2023.06.05</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td><a href="#">배송문의</a></td>
+                        <td>김진수</td>
+                        <td>2023.04.01</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td><a href="#">이사관련 주소 변경</a></td>
+                        <td>이대호</td>
+                        <td>2023.02.04</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td><a href="#">배송문의</a></td>
+                        <td>채수영</td>
+                        <td>2023.01.05</td>
+                        <td>답변완료</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footbox">
+            <div class="fo1">
+                <img src="IMG/Main/LOGO_black.jpg" alt="lo_bk">
+                <div class="ftd">
+                    <p>Casual부터 Modern까지 한번에 Securitas에서<br>
+                        여러분을 모십니다!</p>
+                </div>
+                <div class="ftd2">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>경기도 화성시 동탄면 금곡로 62 201호</p>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+8210 9029 3294</p>
+                    <i class="fa-regular fa-envelope-open"></i>
+                    <p>chaehwan3294@daum.net</p>
+                </div>
+                <div class="ftd3">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-solid fa-blog"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <h2>www.Securitas.com</h2>
+                </div>
+            </div>
+    
+            <div class="fo2">
+                <div id="fo21">
+                    <figure>
+                        <figcaption>Customer Servies</figcaption>
+                        <ul>
+                            <li>무엇을 도와드릴까요?</li>
+                            <li>자주하는 질문</li>
+                            <li>주문 & 배송</li>
+                            <li>반품 & 환불</li>
+                            <li>결제 & 가격</li>
+                            <li>프로모션 이용 안내</li>
+                            <li>쇼핑 가이드</li>
+                        </ul>
+                    </figure>
+                </div>
+    
+                <div id="fo22">
+                    <figure>
+                        <figcaption>About Securitas</figcaption>
+                        <ul>
+                            <li>Securitas 소개</li>
+                            <li>투자사 정보</li>
+                            <li>Securitas Parters</li>
+                            <li>채용 정보</li>
+                            <li>Securitas App</li>
+                        </ul>
+                    </figure>
+                </div>
+    
+                <div id="fo23">
+                    <figure>
+                        <figcaption>할인 & Membership</figcaption>
+                        <ul>
+                            <li>제휴 프로그램</li>
+                            <li>친구 추천 리워드</li>
+                            <li>Securitas Membership</li>
+                            <li>학생 & 유스 할인</li>
+                            <li>Membership Mileage</li>
+                        </ul>
+                    </figure>
+                </div>
+    
+                <div id="fo24">
+                    <p>'Securitas'와 'SECURITAS'의 로고는 Securitas UK Limited의 상표이며 전 세계 다양한 지역에 법적으로 등록되어 있습니다. <br>
+                        © Copyright 2023 FARFETCH UK Limited. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
