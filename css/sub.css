@@ -14,11 +14,11 @@
 #slbt {width: 500px; height: 100px; float: right; margin: -30px 50px 0 0;}
 #slbt button {width: 85px; height: 85px; border: 1px solid #fefefe;}
 #slbt img {width: 85px; height: 85px;}
-.bu1 {margin: 0 15px 0 0; float: left; background-image: url(../IMG/Main/sub_chair1.jpg); background-size: cover;}
-.bu2 {margin: 0 15px 0 0; background-image: url(../IMG/Main/sub_chair2.jpg); background-size: cover;}
-.bu3 {margin: 0 15px 0 0; background-image: url(../IMG/Main/sub_chair3.jpg); background-size: cover;}
-.bu4 {margin: 0 15px 0 0; background-image: url(../IMG/Main/sub_chair4.jpg); background-size: cover;}
-.bu5 {float: right; background-image: url(../IMG/Main/sub_chair5.jpg); background-size: cover;}
+.bu1 {margin: 0 15px 0 0; float: left; background-image: url(../img/Main/sub_chair1.jpg); background-size: cover;}
+.bu2 {margin: 0 15px 0 0; background-image: url(../img/Main/sub_chair2.jpg); background-size: cover;}
+.bu3 {margin: 0 15px 0 0; background-image: url(../img/Main/sub_chair3.jpg); background-size: cover;}
+.bu4 {margin: 0 15px 0 0; background-image: url(../img/Main/sub_chair4.jpg); background-size: cover;}
+.bu5 {float: right; background-image: url(../img/Main/sub_chair5.jpg); background-size: cover;}
 
 .slider2 {width: 50%; height: 700px; float: right;}
 #sbox {width: 90%; height: 500px; margin: 50px 10px;}
